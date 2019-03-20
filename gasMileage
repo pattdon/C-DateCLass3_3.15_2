@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    double miles  = 1;
+    double gallons = 0;
+    double MPG = 0;
+    double AllMPG = 0;
+    while(true){
+        cout<<"enter miles driven(-1 to quit):";
+        cin>>miles;
+        if(miles = -1){
+            break;
+        }
+        cout<<"enter gallons used            :";
+        cin>>gallons;
+        
+        MPG = miles / gallons;
+        //AllMPG =
+        cout<<"MPG this trip                 :"<<MPG<<endl;
+        //cout<<"Total MPG                     :"<<AllMPG<<endl;
+    }
+}
